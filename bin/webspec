@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby -wU
+require 'webspec/cli'
+Webspec::CLI.start(ARGV)
