@@ -8,5 +8,6 @@
 
       t.timestamps
     end
+    add_foreign_key :target, :target_group
   end
 end

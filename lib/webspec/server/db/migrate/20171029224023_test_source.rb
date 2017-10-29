@@ -7,5 +7,7 @@ class TestSource < ActiveRecord::Migration[5.1]
 
       t.timestamps
     end
+
+    add_foreign_key :test_source, :test_group
   end
 end
