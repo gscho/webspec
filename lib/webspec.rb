@@ -1,4 +1,5 @@
-require "webspec/version"
+require 'webspec/version'
+require 'webspec/cli'
 
 module Webspec
 
