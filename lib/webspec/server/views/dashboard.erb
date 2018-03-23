@@ -9,6 +9,26 @@
 <hr/>
 <div class="row justify-content-center">
   RESULTS
+  <table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Desc</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @fails.each_with_index do |fail, idx| %>
+    <tr>
+      <th scope="row"><%= idx+1 %></th>
+      <td><%= fail %></td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
 </div>
 
 
