@@ -1,5 +1,5 @@
 require 'thor'
-require 'webspec/server/server'
+require 'webspec/server/app'
 
 module Webspec
   class CLI < Thor

@@ -38,4 +38,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "inspec"
   spec.add_dependency "rake"
   spec.add_dependency "yajl-ruby"
+  spec.add_dependency "gon-sinatra"
 end
